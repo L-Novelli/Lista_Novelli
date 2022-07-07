@@ -120,10 +120,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(44,14,55,0.5)'
+    backgroundColor: 'rgba(0,0,0,0.3)'
   },  
   modalView: {
-    backgroundColor: 'yellow',
+    backgroundColor: 'white',
     width: '80%',
     height: '50%',
     borderRadius: 10,
