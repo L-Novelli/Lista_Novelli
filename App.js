@@ -81,6 +81,7 @@ return (
       />
     
     </View>  
+
    </ImageBackground>  
   );
 }
