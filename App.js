@@ -4,6 +4,7 @@ import React from 'react';
 import {useState} from 'react';
 
 const image = { uri: "https://i.pinimg.com/originals/87/60/50/8760508c95364b7405978967d5936377.jpg" };
+const imageModal = {uri: 'https://i.pinimg.com/564x/3a/98/d0/3a98d0bac2c6cf7847a02823fc92152e.jpg'};
 
 
 export default function App() {
@@ -49,7 +50,7 @@ return (
                   </Text>
                 </View>
                 <View style={styles.modalMessage}>
-                  <Text>Estas seguro que desea borrar ?</Text>
+                  <Text>Estas seguro que desea borrar?</Text>
                 </View>
                 <View style={styles.modalMessage}>
                   <Text style={styles.modalItem}>{itemSelected.value}</Text>
@@ -123,7 +124,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.3)'
   },  
   modalView: {
-    backgroundColor: 'white',
+    backgroundColor: 'black',
     width: '80%',
     height: '50%',
     borderRadius: 10,
@@ -133,13 +134,14 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   modalTitle: {
-    color: 'black',
+    color: 'white',
     fontSize: 70
   },
   modalMessage: {
     marginBottom: 10,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    color: 'white',
   },
   modalButton: {
     marginTop: 15,
